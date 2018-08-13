@@ -37,6 +37,73 @@ The Chairs of the SIG run operations and processes governing the SIG.
 * [Mailing list](https://groups.google.com/forum/#!forum/kubernetes-sig-auth)
 * [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/sig%2Fauth)
 
+## Subprojects
+
+The following subprojects are owned by sig-auth:
+- **audit-logging**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/apis/audit/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/audit/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/plugin/pkg/audit/OWNERS
+- **authenticators**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/apis/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/kubeapiserver/authenticator/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/registry/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/auth/authenticator/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/api/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/plugin/pkg/authenticator/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/kubernetes/typed/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/listers/authentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/pkg/apis/clientauthentication/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/plugin/pkg/client/auth/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/tools/auth/OWNERS
+- **authorizers**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/apis/authorization/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/kubeapiserver/authorizer/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/registry/authorization/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/auth/authorizer/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/api/authorization/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/authorization/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/plugin/pkg/authorizer/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/kubernetes/typed/authorization/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/listers/authorization/OWNERS
+- **certificates**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/apis/certificates/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/controller/certificates/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/kubelet/certificate/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/registry/certificates/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/authentication/request/x509/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/util/cert/OWENERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/util/certificate/OWENERS
+- **encryption-at-rest**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/server/options/encryptionconfig/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/pkg/storage/value/encrypt/OWNERS
+- **node-identity-and-isolation**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/admission/noderestriction/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/auth/authorizer/node/OWNERS
+- **policy-management**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/api/imagepolicy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/api/policy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/security/podsecuritypolicy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/registry/policy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/apis/imagepolicy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/apis/policy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/admission/imagepolicy/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/admission/security/podsecuritypolicy/OWNERS
+- **service-accounts**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/controller/serviceaccount/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/kubelet/token/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/pkg/serviceaccount/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/plugin/pkg/admission/serviceaccount/OWNERS
+
 ## GitHub Teams
 
 The below teams can be mentioned on issues and PRs in order to get attention from the right people.
